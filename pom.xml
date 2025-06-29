@@ -9,8 +9,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>Evidentry Parent</name>
-    <description>Evidentry Parent</description>
-    <url>https://github.com/evidentry/evidentry-parent</url>
+    <url>https://github.com/evidentry/evidentry-platform</url>
 
     <licenses>
         <license>
@@ -34,16 +33,16 @@
 
     <issueManagement>
         <system>GitHub</system>
-        <url>https://github.com/evidentry/evidentry-parent/issues</url>
+        <url>https://github.com/evidentry/evidentry-platform/issues</url>
     </issueManagement>
     <ciManagement>
         <system>GitHub Actions</system>
-        <url>https://github.com/evidentry/evidentry-parent/actions</url>
+        <url>https://github.com/evidentry/evidentry-platform/actions</url>
     </ciManagement>
     <scm>
-        <connection>scm:git:git://github.com/evidentry/evidentry-parent.git</connection>
-        <developerConnection>scm:git:ssh://git@github.com:evidentry/evidentry-parent.git</developerConnection>
-        <url>https://github.com/evidentry/evidentry-parent</url>
+        <connection>scm:git:git://github.com/evidentry/evidentry-platform.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com:evidentry/evidentry-platform.git</developerConnection>
+        <url>https://github.com/evidentry/evidentry-platform</url>
     </scm>
 
     <properties>
