@@ -13,6 +13,19 @@
     <name>Evidentry Core</name>
 
     <properties>
+        <evidentry-common.version>${project.version}</evidentry-common.version>
     </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.github.evidentry</groupId>
+            <artifactId>evidentry-common</artifactId>
+            <version>${evidentry-common.version}</version>
+        </dependency>
+    </dependencies>
 
 </project>
