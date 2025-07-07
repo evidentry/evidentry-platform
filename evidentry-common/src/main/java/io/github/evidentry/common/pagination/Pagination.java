@@ -3,9 +3,9 @@ package io.github.evidentry.common.pagination;
 import java.util.Set;
 
 public interface Pagination {
-    Integer getNumber();
+    Integer number();
 
-    Integer getSize();
+    Integer size();
 
-    Set<String> getOrderBy();
+    Set<String> orderBy();
 }
