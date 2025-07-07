@@ -1,6 +1,6 @@
 package io.github.evidentry.core.model;
 
-import java.time.Instant;
+import java.time.OffsetDateTime;
 import java.util.List;
 import java.util.Map;
 import java.util.UUID;
@@ -10,7 +10,7 @@ public interface AuditEventAccessor {
 
     String getCreatedBy();
 
-    Instant getCreatedAt();
+    OffsetDateTime getCreatedAt();
 
     String getEntityId();
 
